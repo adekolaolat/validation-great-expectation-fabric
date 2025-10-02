@@ -57,7 +57,7 @@ Also, use a corresponding SMTP configuration in the `sendNotification()` functio
 
 ![alt text](/images/validation-notification.png)
 
-- **Bad records are dropped before promoting data to a higher quality layer (Silver/Gold) if any of the checks fail.**
+- **Bad records are dropped before promoting data to a higher quality layer (Silver/Gold) if any of these checks fail.**
 
   - Tracking ID for any shipment is valid (includes length validation).
   - No Carrier field is blank.
