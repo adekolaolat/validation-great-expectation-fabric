@@ -1,3 +1,6 @@
+
+![alt text](/images/Fab-GX.png)
+
 # Data Validation with Great Expectation
 
 You owe your dashboard users and analysts quality data, so you should always validate your data. In this project, I have used **Great Expectations (GX)** within a Microsoft Fabric pipeline to handle data validation and quality checks. The goal is to ensure data remains trustworthy before moving further down the pipeline. By integrating GX, the pipeline can automatically test incoming data against predefined rules (expectation), catch errors early, monitor data health and provide clear reports.
@@ -15,7 +18,7 @@ You owe your dashboard users and analysts quality data, so you should always val
 
 I have set up a pipeline to run data quality checks on shipment data, making sure the information is accurate and reliable. This included a GX (Great Expectations) environment and configured data contracts to validate the key columns based on logistics domain knowledge. The pipeline will test and validate incoming batch data, move the clean data to the next layer, and trigger alerts to notify stakeholders if any issues come up during validation.
 
-![alt text](GX_validation.png)
+![alt text](/images/Validation-Workflow.jpg)
 
 ### Data
 
